@@ -193,10 +193,8 @@ params:
     items:
       - title: "AWS 기반 이미지 처리 인프라 설계 및 확장 전략 분석"
         content: "AWS 서비스를 활용하여 이미지 자동 처리 시스템을 설계하고 구현한 프로젝트입니다."
-        image: ""
-        featured:
-          name: "AWS"
-          link: "https://aws.amazon.com/"
+        image: "/images/projects/aws-project.png"
+        featured: []
         badges:
           - "AWS"
           - "S3"
@@ -205,34 +203,8 @@ params:
           - "ECS Fargate"
           - "Docker"
         links:
-          - icon: "file-pdf"
+          - icon: "fas fa-file-pdf"
             url: "/My_Profile/files/aws-image-processing-report.pdf"
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
