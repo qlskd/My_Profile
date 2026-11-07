@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://github.com/qlskd/My_Profile"
 languageCode: "ko"
 title: "신선하 포트폴리오"
 
@@ -142,22 +142,31 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "자기소개"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      "전북대학교 컴퓨터인공지능학부에서 컴퓨터공학을 전공하고 있는 신선하입니다. 수업에서 배운 내용을 직접 구현하고 실행하는 과정에 발생하는 문제들을 해결해가며 컴퓨팅 기술에 대한 이해를 넓혀가고 있습니다."
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      **관심 분야**
+
+      클라우드 컴퓨팅을 배우며 관심을 가지게 되었습니다. 특히 다양한 클라우드 서비스를 조합하여 효쥴적으로 컴퓨팅 환경을 구축하는 과정에 흥미를 느꼈습니다. AWS를 활용한 프로젝트를 진행하며 작업의 특성에 따라 적합한 컴퓨팅 자원을 선택하고 서비스 간 연동을 통해 시스템을 구성하는 과정의 중요성을 알게되었습니다.
+      
+      **학습 목표와 실행 계획**
+
+      클라우드 환경을 스스로 구성하고 서비스를 배포 및 운영할 수 있는 역량을 기르고 싶습니다. 이를 위해 AWS의 주요 서비스를 학습하며 다양한 아키텍처를 직접 구현해 볼 계획입니다.
+      **기술 활용 경험**
+
+      수업에서 AWS를 활용한 이미지 자동 처리 시스템의 아키텍처를 설계하고 구현한 경험이 있습니다. Amazon S3, Lambda, SQS, ECS Fargate 등을 연동하여 이미지 업로드부터 처리 결과를 저장하는 과정을 구성했습니다. Lambda와 ECS 기반 구조의 처리 시간, 메모리 사용량, 안정성 및 확장성을 비교하며 작업 특성에 적합한 컴퓨팅 환경을 분석했습니다.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "기술 및 학습 역량"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "AWS"
+        - "Amazon S3"
+        - "AWS Lambda"
+        - "Amazon SQS"
+        - "Docker"
+        - "Cloud Computing"
 
   # Experience
   experience:
