@@ -204,7 +204,7 @@ params:
           - "Docker"
         links:
           - icon: "fas fa-file-pdf"
-            url: "/My_Profile/files/aws-image-processing-report.pdf"
+            url: "/My_Profile/files/aws_processing_report.pdf"
 
   #Contact
   contact:
